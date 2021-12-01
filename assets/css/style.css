@@ -1,0 +1,128 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.contenedor {
+    border: solid 1px royalblue;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.contenedor h1{
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.contenedor-maquina {
+    border: solid 0px black;
+    border-radius: 20px;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.cinta {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow: hidden;
+}
+
+
+.cuadrado {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 2px;
+    background-color: white;
+}
+
+.cuadrado h1 {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cadena {
+    height: 45px;
+    background-color: #709193;
+    overflow: hidden;
+    width: 100%;
+}
+
+#flecha {
+    position: absolute;
+    margin-top: 19px;
+    padding-left: 310px;
+    height: 35px;
+    color: black;
+}
+
+.contenedor-grafo {
+    border: solid 1px royalblue;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 220px;
+}
+
+.edgepath {
+    stroke: #ccc;
+    fill: none;
+    pointer-events: none;
+}
+
+.edgelabel {
+    font-size: 10px;
+    fill: #aaa;
+    letter-spacing: 0.2em;
+}
+
+#nodeQ1 {
+    stroke-width: 4px;
+    fill: rgb(79, 240, 15);
+}
+
+#nodeQ2 {
+    stroke-width: 4px;
+    fill: rgb(12, 72, 238);
+}
+
+
+#nodeQ3 {
+    stroke-width: 4px;
+    fill: rgb(243, 25, 72);
+    
+}
+
+/*
+#edgepath0 {
+    stroke: rgb(231, 82, 62);
+}
+
+
+#edgepath1 {
+    stroke: rgb(150, 33, 18);
+}
+
+#edgepath2 {
+    stroke: rgb(130, 231, 62);
+}
+
+#edgepath3 {
+    stroke: rgb(62, 65, 231);
+}
+*/
+
+
+
